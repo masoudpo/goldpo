@@ -1,5 +1,5 @@
 <?php
-https://api.tlegram.org/bot1678126803:AAHOW3SZQQ7uNothDbJpkprCymbkBHwD_yU/setwebhook
+
 
 
 $update = file_get_contents("php://input");
