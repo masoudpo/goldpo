@@ -10,7 +10,7 @@ $text = 'Command Not Found';
 }
 
 $result = json_decode($message,true);
-$token = "350255380:AAFmWzBLWS7oO-Eg4L9Mq_0R7skO4_nX_wI";
+$token = "1678126803:AAHOW3SZQQ7uNothDbJpkprCymbkBHwD_yU";
 $url = "https://api.telegram.org/bot".$token.'/sendMessage?chat_id='.$result['message']['chat']['id'].'&text='.$text;
 file_get_contents($url);
 
