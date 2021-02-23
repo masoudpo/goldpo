@@ -23,9 +23,6 @@ curl_setopt(cu, curlopt_returntransfer, true);
 $result = curl_exec($cu)
 curl_close($cu)
 return $result;
-
-
-
 }
-
+?>
 
