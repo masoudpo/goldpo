@@ -16,9 +16,9 @@ send_reply($url, $post_params);
 //---------------------------
 function send_reply ($url,$post_params)
 { $cu = curl_init();
-curl_setopt(cu, curlopt_url, $url);
-curl_setopt(cu, curlopt_postfields, $post_params);
-curl_setopt(cu, curlopt_returntransfer, true);
+curl_setopt($cu, curlopt_url, $url);
+curl_setopt($cu, curlopt_postfields, $post_params);
+curl_setopt($cu, curlopt_returntransfer, true);
 $result = curl_exec($cu)
 curl_close($cu)
 return $result;
